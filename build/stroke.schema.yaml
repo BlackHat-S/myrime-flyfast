@@ -1,14 +1,14 @@
 __build_info:
-  rime_version: 1.8.5
+  rime_version: 1.11.2
   timestamps:
-    default: 1686057630
-    default.custom: 1715745682
-    key_bindings: 1686057630
+    default: 1715698465
+    default.custom: 1715774042
+    key_bindings: 1715698465
     key_bindings.custom: 0
-    punctuation: 1686057630
+    punctuation: 1715698465
     punctuation.custom: 0
     stroke.custom: 0
-    stroke.schema: 1686057630
+    stroke.schema: 1715698467
 abc_segmentor:
   extra_tags:
     - reverse_lookup

@@ -1,13 +1,13 @@
 __build_info:
-  rime_version: 1.8.5
+  rime_version: 1.11.2
   timestamps:
-    chaizi.custom: 1715745681
-    chaizi.schema: 1715745681
-    default: 1686057630
-    default.custom: 1715745682
-    key_bindings: 1686057630
+    chaizi.custom: 1715774042
+    chaizi.schema: 1715774042
+    default: 1715698465
+    default.custom: 1715774042
+    key_bindings: 1715698465
     key_bindings.custom: 0
-    punctuation: 1686057630
+    punctuation: 1715698465
     punctuation.custom: 0
 engine:
   processors:

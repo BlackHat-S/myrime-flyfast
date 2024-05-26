@@ -1,15 +1,15 @@
 __build_info:
-  rime_version: 1.8.5
+  rime_version: 1.11.2
   timestamps:
-    default: 1686057630
-    default.custom: 1715745682
-    flypy_zrmfast.custom: 1715745682
-    flypy_zrmfast.schema: 1715745680
-    key_bindings: 1686057630
+    default: 1715698465
+    default.custom: 1715774042
+    flypy_zrmfast.custom: 1715916638
+    flypy_zrmfast.schema: 1715909919
+    key_bindings: 1715698465
     key_bindings.custom: 0
-    punctuation: 1686057630
+    punctuation: 1715698465
     punctuation.custom: 0
-    symbols: 1686057630
+    symbols: 1715698465
     symbols.custom: 0
 custom_phrase:
   db_class: stabledb
@@ -122,10 +122,15 @@ key_binder:
     - {accept: slash, send: 3, when: has_menu}
     - {accept: "Control+i", send: "Shift+Right", when: composing}
     - {accept: "Control+o", send: "Shift+Left", when: composing}
-    - {accept: grave, send_sequence: "{Right}{Right}{Shift+Left}{Right}{Right}[", when: composing}
+    - {accept: "Control+h", send_sequence: "{Home}{Shift+Right}[", when: composing}
+    - {accept: "Control+j", send_sequence: "{Home}{Shift+Right}{Shift+Right}[", when: composing}
+    - {accept: "Control+k", send_sequence: "{Home}{Shift+Right}{Shift+Right}{Shift+Right}[", when: composing}
+    - {accept: "Control+l", send_sequence: "{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[", when: composing}
+    - {accept: apostrophe, send: 3, when: has_menu}
+    - {accept: Tab, send_sequence: "{Right}{Right}{Shift+Left}{Right}{Right}[", when: composing}
   import_preset: default
 menu:
-  page_size: 4
+  page_size: 5
 punctuator:
   full_shape:
     " ": {commit: "　"}
@@ -476,7 +481,7 @@ tex_translator:
   tag: tex_translator
   tips: " TeX 公式"
 translator:
-  dictionary: flypy_zrmfast
+  dictionary: flypy_flypy
   spelling_hints: 2
 verbatim:
   prefix: as

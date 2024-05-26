@@ -1,6 +1,8 @@
 distribution_code_name: Weasel
 distribution_name: "小狼毫"
-distribution_version: 0.15.0.0
-install_time: "Wed May 15 12:01:29 2024"
-installation_id: "97bb78ec-338d-4bdf-91dd-4125bb84f374"
-rime_version: 1.8.5
+distribution_version: 0.16.0
+install_time: "Wed May 15 19:54:11 2024"
+#installation_id: "9fd061d3-e146-49c8-b683-17072199f120"
+installation_id: "alter-hp"
+rime_version: 1.11.2
+sync_dir: D:\jianguoyun\mynut\rimedata
